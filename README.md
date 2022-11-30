@@ -21,3 +21,14 @@ https://marketplace.visualstudio.com/items?itemName=statelyai.stately-vscode
    npm i xstate @xstate/react
    ```
 3. install @xstate/react
+
+
+
+
+
+
+
+
+
+
+

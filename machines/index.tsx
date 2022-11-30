@@ -1,3 +1,4 @@
-import basic from './basic';
+import {basic} from './basic';
+import {apiInvoke} from './apiInvoke';
 
-export { basic };
+export { basic, apiInvoke };

@@ -25,8 +25,9 @@ module.exports = function (api) {
           ],
           alias: {
             '@machines': './machines',
+            '@demos': './app/demos',
+            '@theme': './app/theme',
             '@components': './app/components',
-            '@views': './app/views',
           },
         },
       ],
