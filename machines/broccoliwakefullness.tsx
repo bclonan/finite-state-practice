@@ -2,6 +2,7 @@ import {createMachine} from 'xstate';
 
 export const machine = createMachine({
   id: 'broccolis-wakefullness',
+  initial: 'asleep',
   states: {
     asleep: {
       on: {
@@ -18,11 +19,4 @@ export const machine = createMachine({
       },
     },
   },
-  schema: {
-    context: {} as {},
-    events: {} as {type: 'Wakes Up'} | {type: 'Falls Asleep'},
-  },
-  context: {},
-  predictableActionArguments: true,
-  preserveActionOrder: true,
 });
